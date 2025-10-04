@@ -1,24 +1,27 @@
 ---
-title: "Name of the application I have published for Homework 1"
+title: "Blokus Online Web Game"
 date: "2024-09-15"
 categories: [GitHub, Vercel, Claude Code]
 ---
 
 ## Overview
 
-This project involved using Claude Code to write the code to needed to deveop an app that ...
+This project involved using Claude Code to develop a fully functional web-based implementation of the popular board game Blokus. The app brings the beloved family board game online, allowing players to enjoy strategic gameplay in their browser.
 
 The primary purpose of this app is to:
 
-- ....
-- ....
+- Provide an authentic digital Blokus experience with all 21 polyomino pieces
+- Enable gameplay against AI opponents with multiple difficulty levels
+- Support local multiplayer mode for 2-4 players
+- Enforce proper game rules including corner placement and edge contact validation
+- Deliver an intuitive drag-and-drop interface with visual feedback
 
 ## Live Product Demo
 
 <div class="d-flex justify-content-center gap-3 my-4">
   <!-- Open App button -->
   <a class="btn btn-primary d-inline-flex align-items-center"
-     href="https://tetris-game-egc6.vercel.app/"
+     href="https://first-app-490-r.vercel.app/"
      target="_blank" rel="noopener"
      aria-label="Open live app">
     <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
@@ -27,7 +30,7 @@ The primary purpose of this app is to:
 
   <!-- GitHub Source button -->
   <a class="btn btn-outline-dark d-inline-flex align-items-center"
-     href="https://github.com/your-user/your-repo"
+     href="https://github.com/Jaquosh/first-app-490R"
      target="_blank" rel="noopener"
      aria-label="Open GitHub source">
     <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
@@ -35,20 +38,77 @@ The primary purpose of this app is to:
   </a>
 </div>
 
-<iframe src="https://tetris-game-egc6.vercel.app/"
+<iframe src="https://first-app-490-r.vercel.app/"
         style="width:100%; height:900px; border:none;"
         allowfullscreen>
 </iframe>
 
 ## Technical Details
 
-Framework/Stack: [e.g., React, Quarto, HTML/CSS/JS]
+**Framework/Stack**: Vanilla JavaScript (ES6+), HTML5, CSS3
 
-Deployment: GitHub Pages + Vercel
+**Architecture**: Object-oriented design with modular structure
+- `game.js` - Core game mechanics and rules engine
+- `ai.js` - AI opponent logic with multiple difficulty levels
+- `pieces.js` - Polyomino pieces data and definitions
+- `app.js` - Main application and UI interactions
+- `styles.css` - Responsive design and animations
 
-Tools Used:
--   Claude Code
+**Deployment**: GitHub + Vercel
+
+**Tools Used**:
+- Claude Code for development
+- Git for version control
+- Vercel for hosting
+
+**Key Features**:
+- Drag-and-drop piece placement with visual highlighting
+- Piece rotation and flipping controls
+- Real-time scoring and turn indicators
+- Undo functionality
+- Smart AI opponents with strategic gameplay
 
 ## Product Requirements Document
 
-Paste in the PRD that you submitted to Claude Code
+**Product Name**: Blokus Web App
+**Version**: 1.0
+
+### 1. Overview
+Blokus Web App is a digital adaptation of the popular board game Blokus. The web application allows users to play Blokus online in their browser against AI opponents or other players locally.
+
+### 2. Core Features
+
+**Gameplay**
+- 20x20 grid board
+- 21 polyomino pieces per player (1-5 squares each)
+- Turn-based gameplay for 2-4 players
+- First piece must cover a corner square
+- Each new piece must touch a corner of existing pieces
+- No edge-to-edge contact with own pieces
+
+**Game Modes**
+- Single-player: Play against AI (Easy, Medium, Hard)
+- Local multiplayer: 2-4 players on same device
+
+**User Interface**
+- Drag-and-drop piece placement
+- Visual highlighting of valid placements
+- Piece rotation and flipping controls
+- Game status panel with scoreboard and turn indicator
+- Undo functionality
+
+**Scoring**
+- Points based on number of squares placed
+- Bonus: +15 for placing all pieces
+- Bonus: +5 if last piece is the smallest single square
+
+### 3. Technical Implementation
+- Frontend: Vanilla JavaScript with HTML Canvas/SVG
+- AI Engine: Rule-based algorithm with heuristic scoring
+- Cross-browser compatibility: Chrome, Firefox, Safari, Edge
+
+### 4. Success Metrics
+- Engaging gameplay experience
+- Intuitive user interface
+- Strategic AI opponents
+- Smooth performance and responsive design

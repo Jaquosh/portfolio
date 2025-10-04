@@ -6,12 +6,12 @@ title: "About Me"
 
 <img src="images/profile.jpg" alt="add photo to /images" class="rounded-circle mb-3" width="160">
 
-<h1>Your Name</h1>
+<h1>Joshua Bowen</h1>
 
-<a href="https://linkedin.com/in/your-profile" class="btn btn-outline-primary btn-sm" target="_blank">
+<a href="https://www.linkedin.com/in/joshua-bowen-48a440175/" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-linkedin"></i> LinkedIn
 </a>
-<a href="https://github.com/your-username" class="btn btn-outline-primary btn-sm" target="_blank">
+<a href="https://github.com/Jaquosh" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-github"></i> GitHub
 </a>
 
@@ -19,45 +19,29 @@ title: "About Me"
 
 ## Background
 
-Write a compelling narrative about your background, education, and what drives your passion for product management. This is your chance to tell your story and connect with potential employers or collaborators.
+I am a student at BYU who works in operations and supply chain at a local e-commerce company. I love product management because it's the perfect way to build things that improve people's lives and have an impact.
 
 ### Education
 
-- **Degree Name**, University Name (Year)
-- **Relevant Coursework**: List key courses related to product management, analytics, or business
-- **Academic Achievements**: Honor societies, relevant projects, or awards
+- **Pre-business**, Brigham Young University
+- **Relevant Coursework**: Product management, analytics, and business strategy
 
 ### Experience
 
-#### Job/Internship Title - Company Name
-*Dates*
+#### Supply Chain Clerk - KURU Footwear
 
-- Key accomplishment or responsibility
-- Another achievement with quantifiable results
-- Skills or technologies used
-
-#### Another Position - Company Name
-*Dates*
-
-- What you contributed to the organization
-- Projects you worked on
-- Impact you made
+- Managed production transition of promotional product
+- Analyzed 3PL performance to optimize logistics operations
+- Managed accessories purchasing and inventory management
 
 ### Skills & Interests
 
 **Technical Skills**
-- Programming languages (Python, R, SQL)
-- Analytics tools (Tableau, Power BI, Google Analytics)
-- Product management tools (Jira, Confluence, Figma)
+- Programming languages: VBA, HTML
+- Supply chain and operations management
+- Inventory management and logistics
 
 **Soft Skills**
-- Communication and presentation
+- Data analysis and problem-solving
 - Cross-functional collaboration
-- Strategic thinking and problem-solving
-
-**Interests**
-Share what you're passionate about outside of work - this helps humanize your professional brand and can be great conversation starters.
-
-### What's Next
-
-Describe your career goals and what type of opportunities you're seeking. This helps visitors understand how they might work with you or whether you'd be a good fit for their organization.
+- Process improvement
