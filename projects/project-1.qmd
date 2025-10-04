@@ -1,6 +1,6 @@
 ---
 title: "Blokus Online Web Game"
-date: "2024-09-15"
+date: "2025-10-03"
 categories: [GitHub, Vercel, Claude Code]
 ---
 
